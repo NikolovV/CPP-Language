@@ -1,0 +1,15 @@
+#ifndef ENUMS_HPP
+#define ENUMS_HPP
+
+#define MAX_SIZE 65535
+
+enum UserOption {
+    EXIT = 0, GET_STUDEN, GET_TEACHER, GET_GUEST_TEACHER,
+    ADD_STUDENT, ADD_TEACHER, ADD_GUEST_TEACHER
+};
+
+enum Course {
+    N_A, CPP, C, CSH, JAVA, PHP, HTML, CSS, LAST_COURSE
+};
+
+#endif /* ENUMS_HPP */
